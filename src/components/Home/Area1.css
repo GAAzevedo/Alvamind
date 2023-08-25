@@ -1,0 +1,13 @@
+.butterfly {
+    background-image: url("../../assets/Imagens/btfly mobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media (min-width: 640px) {  
+    .butterfly {
+        background-size: 600px;
+     }
+}

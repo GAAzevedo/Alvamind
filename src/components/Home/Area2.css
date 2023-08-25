@@ -1,0 +1,36 @@
+@keyframes slide {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-110%);
+    }
+  }
+  
+  .animate-slide {
+    animation: slide 8s linear infinite;
+  }
+  
+  .slide1{
+    animation-delay: 0.5s;
+  }
+  
+  .slide2{
+    animation-delay: 1.0s;
+  }
+  
+  .slide3{
+    animation-delay: 1.5s;
+  }
+  
+  .slide4{
+    animation-delay: 2.0s;
+  }
+  
+  .slide5{
+    animation-delay: 2.5s;
+  }
+  
+  .slide6{
+    animation-delay: 3.0s;
+  }
