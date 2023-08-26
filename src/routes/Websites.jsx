@@ -3,9 +3,9 @@ import Hero from '../components/Home/Hero'
 
 const Websites = () => {
   return (
-    <div>
+    <section>
       <Hero />
-    </div>
+    </section>
   )
 }
 

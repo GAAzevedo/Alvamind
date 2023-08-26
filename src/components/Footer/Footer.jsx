@@ -5,69 +5,63 @@ import 'aos/dist/aos.css';
 const Footer = () => {
 
   return (
-    <footer className="p-4 z-40 shadow-lg shadow-black/75 bg-white md:p-8 lg:p-10 dark:bg-zinc-900">
+    <footer className="p-4 bg-zinc-100 md:p-8 lg:p-10 dark:bg-zinc-950">
       <div className="mx-auto max-w-screen-xl text-center">
-        <a href="" className="mt-10 sm:mt-0 md:mt-0 lg:mt-0 flex justify-center items-center ">
-          <img src={Logo} className="h-20" alt="Alvamind Logo" />
+        <a href="#" className="flex justify-center items-center text-2xl font-semibold text-zinc-950 dark:text-white">
+          <img src={Logo} alt="" width="160" />
         </a>
-        <p className="my-6 text-gray-500 dark:text-gray-400">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea excepturi
-          debitis veritatis, minima nobis cum!
-        </p>
-        
-        <ul className="flex flex-wrap justify-center items-center  mb-6 text-gray-900 dark:text-white">
-          
-        <div className="m-6  realtive justify-center opacity-60 text-center sm:px-6 md:px-14 lg:px-20">
-        <li>
-            <a className=" text-blue-800 ">CONTATO</a>
-
-            <p className="hover:underline ">11 94081 0122</p>
-            <p className="hover:underline">
-              CONTATO@ALVAMIND.COM.BR
-            </p>
-            <p className="hover:underline">@ALVAMINDBRASIL</p>
-          </li>
-          <li>
-            <a href="#" className="hover:underline"></a>
-          </li>
-          <li>
-            <a href="#" className="hover:underline "></a>
-          </li>
+        <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 my-16">
+          <div>
+            <h2 className="mb-6 text-sm font-semibold text-zinc-950 uppercase dark:text-white">CONTATO</h2>
+            <ul className="text-zinc-600 dark:text-zinc-400">
+              <li className="mb-2">
+                <a href="https://flowbite.com" className="hover:underline">(11) 94081 0122</a>
+              </li>
+              <li className="mb-2">
+                <a href="https://tailwindcss.com/" className="hover:underline">contato@alvamind.com.nr</a>
+              </li>
+              <li className="mb-2">
+                <a href="https://tailwindcss.com/" className="hover:underline">@alvamindbrasil</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="mb-6 text-sm font-semibold text-zinc-950 uppercase dark:text-white">Visão geral</h2>
+            <ul className="text-zinc-600 dark:text-zinc-400">
+              <li className="mb-2">
+                <a href="https://github.com/themesberg/flowbite" className="hover:underline ">Home</a>
+              </li>
+              <li className="mb-2">
+                <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Websites</a>
+              </li>
+              <li className="mb-2">
+                <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Marketing</a>
+              </li>
+              <li className="mb-2">
+                <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Presença Digital</a>
+              </li>
+              <li className="mb-2">
+                <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Sobre Nós</a>
+              </li>
+              <li className="mb-2">
+                <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Contato</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="mb-6 text-sm font-semibold text-zinc-950 uppercase dark:text-white"></h2>
+            <ul className="text-zinc-600 dark:text-zinc-400">
+              <li className="mb-2">
+                <button type="button"
+                  className="text-white bg-cyan-700 hover:bg-cyan-800 focus:ring-4 focus:ring-cyan-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none">
+                  Agende uma conversa
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
-          
 
-          <div className=" m-6 realtive justify-center opacity-60 text-center sm:px-6 md:px-14 lg:px-20">
-          <li>
-            <a href="#" className="hover:underline "></a>
-
-            <p className="hover:underline ">Website</p>
-            <p className="hover:underline ">Marketing</p>
-          </li>
-          <li>
-            <a href="#" className="hover:underline "></a>
-
-            <p className="hover:underline ">Contato</p>
-            <p className="hover:underline ">Sobre nós</p>
-          </li>
-
-          </div>
-          
-          <div className="m-12  realtive justify-center  text-center sm:px-6 md:px-14 lg:px-20">
-            <button
-              type="button"
-              className=" text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center "
-            >
-              Agende uma conversa
-            </button>
-          </div>
-        </ul>
-        <span className="text-sm text-gray-700 sm:text-center dark:text-gray-700">
-          © 2021-2023{" "}
-          <a href="#" className="hover:underline">
-            Alvamind™
-          </a>
-          . Todos Direitos Reservados.
-        </span>
+        <span className="text-sm text-zinc-500 sm:text-center dark:text-zinc-400block">© 2021-2022 <a href="#" className="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
       </div>
     </footer>
   );

@@ -16,11 +16,13 @@ const App = () => {
   }, [])
 
   return (
-    <div className='bg-zinc-50 dark:bg-zinc-950'>
+    <>
       <Header />
-      <Outlet />
+      <main className='bg-white dark:bg-zinc-950'>
+        <Outlet />
+      </main>
       <Footer />
-    </div>
+    </>
   )
 }
 

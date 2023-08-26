@@ -5,6 +5,10 @@ import App from "./App.jsx"
 import Home from "./routes/Home.jsx"
 import "./index.css"
 import Websites from "./routes/Websites.jsx"
+import Presenca from "./routes/Presenca.jsx"
+import Sobre from "./routes/Sobre.jsx"
+import Contato from "./routes/Contato.jsx"
+import Marketing from "./routes/Marketing.jsx"
 
 const router = createBrowserRouter([
   {
@@ -19,6 +23,23 @@ const router = createBrowserRouter([
         path: "website",
         element: <Websites/>,
       },
+      {
+        path: "presenca",
+        element: <Presenca />
+      },
+      {
+        path: "sobre",
+        element: <Sobre />
+      },
+      {
+        path: "contato",
+        element: <Contato />
+      },
+      ,
+      {
+        path: "marketing",
+        element: <Marketing />
+      }
     ],
   },
 ])

@@ -19,7 +19,7 @@ const Area2 = () => {
   return (
 
     <div className=" p-0 text-center">
-      <section className='container mx-auto px-5 my-44'>
+      <section className='container mx-auto px-5 py-32'>
         <div className='container mx-auto px-2' data-aos="fade-up" data-aos-duration="2000">
           <h5 className='relative justify-center text-xl mb-20 font-semibold text-white opacity-70'>Nossas Qualificações</h5>
           <ul className='flex gap-8 relative h-20 overflow-hidden'>

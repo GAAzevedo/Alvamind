@@ -20,7 +20,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white top-0 left-0 fixed w-full z-40 shadow-lg shadow-black/75 dark:bg-zinc-950">
+    <header className="bg-white top-0 left-0 fixed w-full z-40 shadow-lg dark:shadow-black/75 dark:bg-zinc-950">
       <nav className="bg-white border-zinc-200 container mx-auto px-4 py-1 dark:bg-zinc-950">
         <div className="flex flex-wrap gap-x-10 justify-between items-center mx-auto max-w-screen-xl h-16 ">
 
@@ -46,7 +46,7 @@ const Header = () => {
             id="mobile-menu-2"
           >
             <ul className="container mx-auto  px-4 lg:px-0 flex flex-1 flex-col font-medium lg:flex-row lg:space-x-8">
-              <NavLinkItem url="website" name="Website" />
+              <NavLinkItem url="website" name="Websites" />
               <NavLinkItem url="marketing" name="Marketing" />
               <li className="flex-1 flex justify-center items-center">
                 <Theme />
