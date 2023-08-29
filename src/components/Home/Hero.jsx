@@ -12,7 +12,7 @@ const Hero = () => {
           websites inovadores, funcionais e visualmente cativantes, Presença maxima nas Redes Sociais, vantagem em anunciosem cima de sesus concorrentes. Junte-se a nós para dar vida à sua visão digital
         </p>
         <button type="button"
-          className="text-white bg-cyan-700 hover:bg-cyan-800 focus:ring-4 focus:ring-cyan-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none">
+          className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
           Agende uma conversa
         </button>
       </div>
