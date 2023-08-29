@@ -26,7 +26,7 @@ const Theme = () => {
 
   return (
     <button
-      className="cursor-pointer text-3xl flex justify-center items-center gap-3 text-gray-800 dark:text-white"
+      className="cursor-pointer text-2xl flex justify-center items-center gap-3 text-gray-800 dark:text-white"
       onClick={handleThemeSwitch}
     >
       <VscColorMode />
