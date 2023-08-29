@@ -30,9 +30,9 @@ const Header = () => {
             <img src={Logo} className="h-16 hidden dark:block" alt="Alvamind Logo" />
 
           </NavLink>
-
-          <div className="flex items-center lg:order-2">
-            <a href="#" className="btn-primary">
+          
+          <div className=" flex items-center lg:order-2">
+            <a href="#" className="btn-primary mx-2 hidden sm:block">
               Fale Conosco
             </a>
 
@@ -42,7 +42,7 @@ const Header = () => {
 
             <button type="button"
               onClick={handleMenu}
-              className="inline-flex items-center p-1 ml-1 text-sm text-zinc-500 rounded-lg lg:hidden hover:bg-zinc-100 focus:outline-none focus:ring-2 focus:ring-zinc-200 dark:text-zinc-400 dark:hover:bg-zinc-700 dark:focus:ring-zinc-600">
+              className="inline-flex items-center p-1  text-sm text-zinc-500 rounded-lg lg:hidden hover:bg-zinc-100 focus:outline-none focus:ring-2 focus:ring-zinc-200 dark:text-zinc-400 dark:hover:bg-zinc-700 dark:focus:ring-zinc-600">
               <span className="sr-only">Open main menu</span>
               <HiOutlineMenu size="25" />
             </button>
