@@ -32,7 +32,7 @@ const Header = () => {
           </NavLink>
 
           <div className="flex items-center lg:order-2">
-            <a href="#" className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
+            <a href="#" className="btn-primary">
               Fale Conosco
             </a>
 
@@ -49,14 +49,16 @@ const Header = () => {
           </div>
 
           <div
-            className={`absolute bg-white dark:bg-zinc-950 top-16 left-0 flex-1 justify-between items-center w-full lg:static lg:w-auto lg:order-1 duration-700 transition-all overflow-hidden ${menuHeight} lg:h-auto`}
+            className={`absolute bg-white dark:bg-zinc-950 lg:bg-transparent lg:dark:bg-transparent  top-[73px] left-0 flex-1 justify-between items-center w-full lg:static lg:w-auto lg:order-1 duration-700 transition-all overflow-hidden ${menuHeight} lg:h-auto`}
             id="mobile-menu-2"
           >
             <ul className="container mx-auto  px-4 lg:px-0 flex flex-1 flex-col font-medium lg:flex-row lg:space-x-8">
+              <NavLinkItem url="" name="Home" handleMenu={handleMenu} />
               <NavLinkItem url="website" name="Websites" handleMenu={handleMenu} />
               <NavLinkItem url="marketing" name="Marketing" handleMenu={handleMenu} />
               <NavLinkItem url="presenca" name="Presença Digital" handleMenu={handleMenu}/>
-              <NavLinkItem url="sobre" name="Sobre nós" handleMenu={handleMenu}/>
+              <li className="xl:flex-1"></li>
+              <NavLinkItem url="sobre" name="Sobre" handleMenu={handleMenu}/>
               <NavLinkItem url="contato" name="Contato" handleMenu={handleMenu}/>
             </ul>
           </div>
