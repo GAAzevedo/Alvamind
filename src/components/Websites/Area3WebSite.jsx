@@ -40,11 +40,6 @@ const Area3WebSite = () => {
             ></div>
             </div> */}
 
-          <Area3WebSiteItem
-            /*Subtitulo*/ texto3="Titulo 3"
-            /*texto principal*/ texto4="Um site pode ajudá-lo a aumentar suas chances de sucesso. Ele pode ajudar você a atrair novos clientes, a aumentar as vendas e a melhorar a sua imagem de marca."
-            align={"text-center"}
-          />
 
 
           
