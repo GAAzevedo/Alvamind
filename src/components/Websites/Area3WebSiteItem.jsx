@@ -1,26 +1,19 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
 
-const Area3WebSiteItem = ({ texto1, texto2, texto3, texto4, align }) => {
+const Area3WebSiteItem = ({ texto1, texto2, leftorhight, align }) => {
   return (
-    <div data-aos="fade-up" className={`mb-8  ${align}`}>
+    <div data-aos={`${leftorhight}`} className={`mb-8  ${align}`}>
 
 
-      <div className="">
-        <p className="bg-red-500 font-light mb-4 text-black dark:text-zinc-300">
+      <div className="border-solid rounded-3xl m-4 border-4 border-blue-500 border-opacity-70 ">
+        <p className="font-light mt-6 text-black dark:text-zinc-300">
           {texto1}
         </p>
-        <p className="bg-blue-500 font-medium mb-4 text-black dark:text-zinc-300">
+        <p className="font-medium m-6 text-black dark:text-zinc-300">
           {texto2}
         </p>
         <div>
-          <a
-            href="#"
-            className="inline-flex items-center gap-2 font-medium text-black hover:text-cyan-500 dark:text-zinc-300"
-          >
-            Ler Mais
-            <FaChevronRight />
-          </a>
         </div>
       </div>
 
