@@ -7,12 +7,12 @@ import Area2 from '../components/Home/Area2'
 
 const Home = () => {
   return (
-    <div className=''>
+    <>
       <Hero/>
       <Area1/>
       <Paralax/>
       <Area2/>
-    </div>
+    </>
   )
 }
 

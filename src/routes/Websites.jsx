@@ -7,13 +7,13 @@ import Area4WebSite from '../components/Websites/Area4WebSite'
 
 const Websites = () => {
   return (
-    <section>
+    <>
       <HeroWebsite/>
       <Area2WebSite/>
       <Area1WebSite/>
       <Area3WebSite/>
       <Area4WebSite/>
-    </section>
+    </>
   )
 }
 
