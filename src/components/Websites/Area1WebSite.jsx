@@ -3,7 +3,7 @@ import Area1WebSiteItem from './Area1WebSiteItem';
 
 const Area1WebSite = () => {
   return (
-    <section className="relative bg-white dark:bg-zinc-930">
+    <section className="relative bg-white dark:bg-zinc-950">
       <div className="py-24 px-4 mx-auto max-w-screen-xl sm:py-28 md:py-32 lg:py-36 sm:px-6 md:px-14 lg:px-20">
         <div className=" text-gray-500 sm:text-lg">
             

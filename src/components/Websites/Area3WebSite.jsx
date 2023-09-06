@@ -3,9 +3,11 @@ import Area3WebSiteItem from "./Area3WebSiteItem";
 
 const Area3WebSite = () => {
   return (
-    <section className="relative bg-white dark:bg-zinc-930">
-      <div className="py-24 px-4 mx-auto max-w-screen-xl sm:py-28 md:py-32 lg:py-36 sm:px-6 md:px-14 lg:px-20">
-        <div className=" text-gray-500 grid grid-cols-2 sm:text-lg">
+    <section className="overflow-hidden relative bg-white dark:bg-zinc-950">
+      
+      <div className=" px-4 mx-auto max-w-screen-xl sm:py-28 md:py-32  sm:px-6 md:px-14 lg:px-20 ">
+      <p className=" text-4xl w-full text-center mb-32 dark:text-white text-zinc-950 ">Teste Titulo</p>
+        <div className="  text-gray-500 gap-8 sm:grid grid-cols-2 sm:text-lg  ">
           {/*PARA COLOCAR O TESTO A DIREITA: align={"text-right"}*/}
 
           <Area3WebSiteItem
@@ -25,7 +27,7 @@ const Area3WebSite = () => {
           <Area3WebSiteItem
             /*efeito data-aos----*/ leftorhight={"zoom-out-right"}
             /*Subtitulo----------*/ texto1="Titulo 2"
-            /*texto principal----*/ texto2="teste"
+            /*texto principal----*/ texto2="Lorem20"
             /*Alinhamento texto--*/ align={"text-center"}
           />
 
