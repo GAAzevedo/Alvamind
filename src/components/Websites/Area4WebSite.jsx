@@ -13,7 +13,7 @@ const Area4WebSite = () => {
           <div className="grid sm:grid-cols-3 gap-5 p-5 rounded-xl bg-white dark:bg-zinc-950">
             
             
-            <div className="relative mt-20 sm:mt-0">
+            <div data-aos="fade-up" data-aos-delay="500" className="relative mt-20 sm:mt-0">
               
             <p className=" flex w-full justify-center items-center mb-4 absolute -top-14">
               <span className=" dark:text-white text-zinc-950 text-2xl dark:bg-zinc-950 bg-white p-4">2</span>
@@ -25,7 +25,7 @@ const Area4WebSite = () => {
               </p>
             </div>
 
-            <div className="relative mt-20 sm:mt-0">
+            <div data-aos="fade-up" data-aos-delay="1000" className="relative mt-20 sm:mt-0">
               
               <p className=" flex w-full justify-center items-center mb-4 absolute -top-14">
               <span className=" dark:text-white text-zinc-950 text-2xl dark:bg-zinc-950 bg-white p-4">2</span>
@@ -37,7 +37,7 @@ const Area4WebSite = () => {
               </p>
             </div>
 
-            <div className="relative mt-20 sm:mt-0">
+            <div data-aos="fade-up" data-aos-delay="1500" className="relative mt-20 sm:mt-0">
               
             <p className=" flex w-full justify-center items-center mb-4 absolute -top-14">
               <span className=" dark:text-white text-zinc-950 text-2xl dark:bg-zinc-950 bg-white p-4">2</span>
