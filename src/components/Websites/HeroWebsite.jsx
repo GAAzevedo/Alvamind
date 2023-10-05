@@ -3,7 +3,6 @@ import BgBlack from "../../assets/Imagens/bg-black.png";
 import BgWhite from "../../assets/Imagens/bg-white.png";
 import BgBlackS from "../../assets/Imagens/bg-black-s.png";
 import BgWhiteS from "../../assets/Imagens/bg-white-s.png";
-import "./Area1WebSite.css";
 
 const HeroWebsite = () => {
   const [img, setImg] = useState(BgBlackS);
