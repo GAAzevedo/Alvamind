@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 const Footer = () => {
   return (
-    <footer className="p-4 border-t border-t-zinc-900 bg-zinc-100 md:p-8 lg:p-10 dark:bg-zinc-950">
+    <footer className="p-4 border-t border-t-zinc-900 bg-zinc-100  md:p-8 lg:p-10 dark:bg-zinc-950">
       <div className="mx-auto max-w-screen-xl text-center">
         <a
           href="#"

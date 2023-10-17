@@ -1,11 +1,12 @@
 import React from "react";
-import Banner1 from "../../assets/Imagens/banner1.png";
-
+import Banner1 from "../../assets/Imagens/banner1.2.png";
+import astronauta from "../../assets/Imagens/astronauta.png"
 
 const Area2WebSite = () => {
+
   return (
-    <section>
-      <img src={Banner1} alt="" />
+    <section className="mx-auto relative overflow-hidden">
+      <img src={Banner1} alt="" className="xl:scale-y-90"/>
     </section>
   );
 };
