@@ -6,8 +6,8 @@ import imgDesktop from "../../assets/Imagens/contatoHero2.png";
 const Area1Contato = () => {
     return (
         <section className="relative overflow-hidden h-[calc(100vh-72px)] flex justify-center items-center">
-            <img src={imgMobile} alt="" className='block sm:hidden w-full' />
-            <img src={imgDesktop} alt="" className='hidden sm:block w-full' />
+            <img src={imgMobile} alt="" className='block sm:hidden h-full w-full' />
+            <img src={imgDesktop} alt="" className='hidden sm:block h-full w-full' />
             <div className='absolute'>
                 <p className='text-white font-bold text-3xl mb-4 font-test'>Let's have a talk</p>
                 <button type="button"
