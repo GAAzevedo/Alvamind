@@ -23,8 +23,14 @@ const Area1Sobre = () => {
                     </div>
                 ))}
             </div>
+<<<<<<< HEAD
         </section>
     )
+=======
+        </section>          
+
+  )
+>>>>>>> c408622767a84f6f7388b77d6547d6f8ef4b00c7
 }
 
 export default Area1Sobre
