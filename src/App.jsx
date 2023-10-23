@@ -25,10 +25,10 @@ const App = () => {
       </main>
       <Footer />
 
-      <div className='fixed bottom-8 right-8 md:bottom-16 md:right-16 rounded-full animate-bounce '>
-        <div className='relative bg-green-500 rounded-full p-3 flex justify-center items-center'>
+      <div className='fixed bottom-8 right-8 md:bottom-16 md:right-16 rounded-full animate-bounce z-40'>
+        <div className='relative bg-green-500 rounded-full p-4 flex justify-center items-center'>
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-          <a href="https://api.whatsapp.com/send?phone=919819337" className='text-4xl  text-white rounded-full'><BsWhatsapp /></a>
+          <a href="https://api.whatsapp.com/send?phone=919819337" className='text-4xl text-white rounded-full'><BsWhatsapp /></a>
         </div>
       </div>
     </>
