@@ -1,25 +1,14 @@
-import React from "react";
-import { FaChevronRight } from "react-icons/fa";
+import React from "react"
+import { FaChevronRight } from "react-icons/fa"
 
-const Area1WebSiteItem = ({ texto1, texto2, texto3, align }) => {
+const Area1WebSiteItem = ({ title, text1, text2, align }) => {
   return (
-    <div data-aos="fade-up" className={`mb-0 ${align}`}>
-      <h2 className="mb-6 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">
-        {texto3}
-      </h2>
-      <p className="font-light mb-4 text-black dark:text-zinc-300">{texto1}</p>
-      <p className="font-medium mb-4 text-black dark:text-zinc-300">{texto2}</p>
-      <div>
-        <a
-          href="#"
-          className="inline-flex items-center gap-2 font-medium text-black hover:text-cyan-500 dark:text-zinc-300"
-        >
-          Ler Mais
-          <FaChevronRight />
-        </a>
-      </div>
-    </div>
-  );
-};
+    <div data-aos="fade-up" className="text-center">
+      <h3 class="mb-4 text-center text-2xl sm:text-3xl md:mb-7 md:text-4xl lg:text-5xl text-zinc-300">{title}</h3>
+      <p className="mb-1 text-base text-zinc-500 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl">{text1}</p>
+      <p className="mb-1 text-base text-zinc-500 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl">{text2}</p>
+    </div >
+  )
+}
 
-export default Area1WebSiteItem;
+export default Area1WebSiteItem

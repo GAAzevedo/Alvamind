@@ -1,5 +1,5 @@
-import React from "react";
-import { FaChevronRight } from "react-icons/fa";
+import React from "react"
+import { FaChevronRight } from "react-icons/fa"
 
 const Area3WebSiteItem = ({ title, text, per }) => {
   return (
@@ -8,17 +8,13 @@ const Area3WebSiteItem = ({ title, text, per }) => {
         <svg className="w-full h-full" viewBox="0 0 100 100">
           <circle className="progress-ring__circle_a stroke-current" strokeWidth="8" cx="50" cy="50" r="40" fill="transparent"></circle>
           <circle className="progress-ring__circle stroke-current" strokeWidth="8" strokeLinecap="square" cx="50" cy="50" r="40" fill="transparent"
-            strokeDashoffset={`calc(400 - (400 * ${per/1.62}) / 100)`}></circle>
+            strokeDashoffset={`calc(400 - (400 * ${per / 1.62}) / 100)`}></circle>
         </svg>
       </div>
-      <h6 className="text-black mb-4 dark:text-zinc-200  text-2xl font-semibold">
-        {title}
-      </h6>
-      <p className="font-light text-black dark:text-zinc-300">
-        {text}
-      </p>
+      <h4 class="mb-3 text-center text-xl sm:text-2xl md:mb-6 md:text-3xl lg:text-4xl text-zinc-300">{title}</h4>
+      <p class="font-light mb-1 text-base text-zinc-500 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl"> {text}</p>
     </div>
-  );
-};
+  )
+}
 
-export default Area3WebSiteItem;
+export default Area3WebSiteItem

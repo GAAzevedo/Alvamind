@@ -3,34 +3,40 @@ import Area1WebSiteItem from './Area1WebSiteItem';
 
 const Area1WebSite = () => {
   return (
-    <section className="relative bg-white dark:bg-zinc-950">
-      <div className="py-24 px-4 mx-auto max-w-screen-xl sm:py-28 md:py-32 lg:py-36 sm:px-6 md:px-14 lg:px-20">
+    <section className="section-test">
+      <div className="container-test">
         <div className=" text-gray-500 sm:text-lg">
-            
-            {/*PARA COLOCAR O TESTO A DIREITA: align={"text-right"}*/}
 
-            <Area1WebSiteItem  /*Titulo*/texto3="Vitrine online"
-                        /*Subtitulo*/texto1="" 
-                        /*texto principal*/texto2="Um site é como uma vitrine para sua empresa. É a primeira impressão que as pessoas terão de você, e é a maneira como elas saberão mais sobre o que você oferece.."
-                        align={"text-center"}/>      
-                        <div className='drop-shadow-2xl flex justify-center items-center relative m-4'>
-                          <div data-aos="fade-up" className='absolute w-2 h-2 rounded-full dark:bg-white bg-zinc-930 top-0'></div>
-                          <div data-aos="fade-up" className='w-0.5 h-32 dark:bg-white bg-zinc-930'></div>
-                        </div>
-            <Area1WebSiteItem  /*Titulo*/texto3="Conexão com clientes"
-                        /*Subtitulo*/texto1="" 
-                        /*texto principal*/texto2="Um site é uma ótima maneira de se conectar com seus clientes. Você pode usar o site para compartilhar informações sobre seus produtos ou serviços, para fornecer atendimento ao cliente e para gerar leads."
-                        align={"text-center"}/>
-                        <div className='drop-shadow-2xl flex justify-center items-center relative m-4'>
-                          <div data-aos="fade-up" className='absolute w-2 h-2 rounded-full dark:bg-white bg-zinc-930 top-0'></div>
-                          <div data-aos="fade-up" className='w-0.5 h-32 dark:bg-white bg-zinc-930'></div>
-                        </div>
-            <Area1WebSiteItem  /*Titulo*/texto3="Oportunidades de negócios"
-                        /*Subtitulo*/texto1="" 
-                        /*texto principal*/texto2="Um site pode ajudá-lo a aumentar suas chances de sucesso. Ele pode ajudar você a atrair novos clientes, a aumentar as vendas e a melhorar a sua imagem de marca."
-                        align={"text-center"}/> 
+          {/*PARA COLOCAR O TESTO A DIREITA: align={"text-right"}*/}
 
-            
+
+          <Area1WebSiteItem
+            title="Vitrine online"
+            text1="Um site é como uma vitrine para sua empresa. É a primeira impressão que as pessoas terão de você, e é a maneira como elas saberão mais sobre o que você oferece.."
+            text2="Um site é como uma vitrine para sua empresa. É a primeira impressão que as pessoas terão de você, e é a maneira como elas saberão mais sobre o que você oferece.."
+          />
+
+          <div className='drop-shadow-2xl flex justify-center items-center relative m-4'>
+            <div data-aos="fade-up" className='absolute w-2 h-2 rounded-full dark:bg-white bg-zinc-930 top-0'></div>
+            <div data-aos="fade-up" className='w-0.5 h-32 dark:bg-white bg-zinc-930'></div>
+          </div>
+
+          <Area1WebSiteItem
+            title="Conexão com clientes"
+            text1="Um site é uma ótima maneira de se conectar com seus clientes. Você pode usar o site para compartilhar informações sobre seus produtos ou serviços, para fornecer atendimento ao cliente e para gerar leads."
+            text2="Um site é uma ótima maneira de se conectar com seus clientes. Você pode usar o site para compartilhar informações sobre seus produtos ou serviços, para fornecer atendimento ao cliente e para gerar leads."
+          />
+
+          <div className='drop-shadow-2xl flex justify-center items-center relative m-4'>
+            <div data-aos="fade-up" className='absolute w-2 h-2 rounded-full dark:bg-white bg-zinc-930 top-0'></div>
+            <div data-aos="fade-up" className='w-0.5 h-32 dark:bg-white bg-zinc-930'></div>
+          </div>
+
+          <Area1WebSiteItem
+            title="Oportunidades de negócios"
+            text1="Um site é como uma vitrine para sua empresa. É a primeira impressão que as pessoas terão de você, e é a maneira como elas saberão mais sobre o que você oferece.."
+            text2="Um site pode ajudá-lo a aumentar suas chances de sucesso. Ele pode ajudar você a atrair novos clientes, a aumentar as vendas e a melhorar a sua imagem de marca."
+          />
         </div>
       </div>
     </section>
