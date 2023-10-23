@@ -36,3 +36,16 @@ const App = () => {
 }
 
 export default App
+
+
+{/* 
+<h1 class="mb-6 text-center text-4xl sm:text-5xl md:mb-9 md:text-6xl lg:text-7xl text-zinc-100">Título H1</h1>
+<h2 class="mb-5 text-center text-3xl sm:text-4xl md:mb-8 md:text-5xl lg:text-6xl text-zinc-200">Título H2</h2>
+<h3 class="mb-4 text-center text-2xl sm:text-3xl md:mb-7 md:text-4xl lg:text-5xl text-zinc-300">Título H3</h3>
+<h4 class="mb-3 text-center text-xl sm:text-2xl md:mb-6 md:text-3xl lg:text-4xl text-zinc-300">Título H4</h4>
+<h5 class="mb-2 text-center text-lg sm:text-xl md:mb-5 md:text-2xl lg:text-3xl text-zinc-300">Título H5</h5>
+<h6 class="mb-1 text-center text-base sm:text-lg md:mb-4 md:text-xl lg:text-2xl text-zinc-300">Título H6</h6>
+<p class="mb-1 text-base text-zinc-500 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl">Exemplo exemplo</p>
+<a href="#" class="text-base text-zinc-500 sm:text-lg md:text-xl lg:text-2xl hover:text-200">Link</a>
+*/}
+
