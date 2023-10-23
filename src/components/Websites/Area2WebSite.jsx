@@ -5,7 +5,7 @@ import astronauta from "../../assets/Imagens/astronauta.png"
 const Area2WebSite = () => {
 
   return (
-    <section className="mx-auto relative overflow-hidden">
+    <section className="mx-auto mb-20 relative overflow-hidden">
       <img src={Banner1} alt="" className="xl:scale-y-90"/>
     </section>
   );
