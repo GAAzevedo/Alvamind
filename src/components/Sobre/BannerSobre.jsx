@@ -3,6 +3,7 @@ import btflyBanner from '../../assets/Imagens/bannerBtfly.png'
 import btflyBannerSm from '../../assets/Imagens/bannerBtflySm.png'
 import btflyBannerMd from '../../assets/Imagens/bannerBtflyMd.png'
 import btflyBannerLg from '../../assets/Imagens/bannerBtflyLg.png'
+import btflyBannerXl from '../../assets/Imagens/bannerBtflyXl.png'
 
 
 const BannerSobre = () => {
@@ -19,11 +20,14 @@ const BannerSobre = () => {
         if (w >= 1024) {
             setImg(btflyBannerLg)
         }
+        if (w >= 1280) {
+            setImg(btflyBannerXl)
+        }
 
     }, []);
     return (
         <section className='my-28'>
-            <img className='my-8 mx-auto' src={img} alt="" />
+            <img className='my-8 w-full ' src={img} alt="" />
         </section>
     )
 }

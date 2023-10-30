@@ -5,7 +5,7 @@ const Area2Contato = () => {
   return (
     <section className="relative bg-white dark:bg-zinc-950">
       <div className="py-36 px-4 mx-auto mt-20 max-w-screen-xl sm:py-28 md:py-32 lg:py-36 sm:px-6 md:px-14 lg:px-20">
-        <div className='dark:text-white text-zinc-950 text-center text-2xl grid lg:grid-cols-3'>
+        <div className='dark:text-white text-zinc-950 text-center text-xl grid lg:grid-cols-3'>
           <div className='mb-20'>
             <p className=' uppercase font-semibold mb-4'>telefone</p>
             <div className='flex items-center justify-center gap-5'>

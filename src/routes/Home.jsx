@@ -1,8 +1,8 @@
 import React from 'react'
 import Hero from '../components/Home/Hero'
 import Area1 from '../components/Home/Area1'
-import Paralax from '../components/Home/Paralax'
-import Area2 from '../components/Home/Area2'
+import Testimonials from '../components/Home/Testimonials'
+import Certification from '../components/Home/Certification'
 
 
 const Home = () => {
@@ -10,8 +10,8 @@ const Home = () => {
     <>
       <Hero/>
       <Area1/>
-      <Paralax/>
-      <Area2/>
+      <Testimonials />
+      <Certification />
     </>
   )
 }

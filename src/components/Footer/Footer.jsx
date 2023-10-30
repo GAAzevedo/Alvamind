@@ -1,7 +1,24 @@
-import React from "react";
-import Logo from "../../assets/Logo/logoWhite.png";
-import LogoB from "../../assets/Logo/logoBlack.png";
-import "aos/dist/aos.css";
+import React from "react"
+import Logo from "../../assets/Logo/logoWhite.png"
+import LogoB from "../../assets/Logo/logoBlack.png"
+import ButtonRocket from "../Buttons/ButtonRocket"
+import { BsTelephone, BsEnvelope, BsWhatsapp, BsInstagram, BsRocketTakeoff } from 'react-icons/bs'
+
+const visaoLinks = [
+  { title: "Home", url: "" },
+  { title: "WebSites", url: "/website" },
+  { title: "Marketing", url: "/marketing" },
+  { title: "Presença Digital", url: "'/presenca" },
+  { title: "Sobre Nós", url: "/sobre" },
+  { title: "Contato", url: "contato" }
+]
+
+const contatoTextos = [
+  { title: "(11) 94081 0122", icon: <BsTelephone />},
+  { title: "contato@alvamind.com.nr", icon: <BsRocketTakeoff />},
+  { title: "@alvamindbrasil", icon: <BsEnvelope />},
+]
+
 
 const Footer = () => {
   return (
@@ -28,21 +45,12 @@ const Footer = () => {
               CONTATO
             </h2>
             <ul className="text-zinc-600 dark:text-zinc-400">
-              <li className="mb-2">
-                <a href="https://flowbite.com" className="hover:underline">
-                  (11) 94081 0122
-                </a>
-              </li>
-              <li className="mb-2">
-                <a href="https://tailwindcss.com/" className="hover:underline">
-                  contato@alvamind.com.nr
-                </a>
-              </li>
-              <li className="mb-2">
-                <a href="https://tailwindcss.com/" className="hover:underline">
-                  @alvamindbrasil
-                </a>
-              </li>
+            {contatoTextos.map((item, index) => (
+                <li className="mb-2 flex items-center justify-center gap-2" key={index}>
+                    {item.icon}
+                    {item.title}
+                </li>
+              ))}
             </ul>
           </div>
           <div>
@@ -50,66 +58,20 @@ const Footer = () => {
               Visão geral
             </h2>
             <ul className="text-zinc-600 dark:text-zinc-400">
-              <li className="mb-2">
-                <a
-                  href="https://github.com/themesberg/flowbite"
-                  className="hover:underline "
-                >
-                  Home
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="https://discord.gg/4eeurUVvTy"
-                  className="hover:underline"
-                >
-                  Websites
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="https://discord.gg/4eeurUVvTy"
-                  className="hover:underline"
-                >
-                  Marketing
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="https://discord.gg/4eeurUVvTy"
-                  className="hover:underline"
-                >
-                  Presença Digital
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="https://discord.gg/4eeurUVvTy"
-                  className="hover:underline"
-                >
-                  Sobre Nós
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="https://discord.gg/4eeurUVvTy"
-                  className="hover:underline"
-                >
-                  Contato
-                </a>
-              </li>
+              {visaoLinks.map((item) => (
+                <li className="mb-2" key={item.title}>
+                  <a href={item.url} className="hover:underline ">
+                    {item.title}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
           <div>
             <h2 className="mb-6 text-sm font-semibold text-zinc-950 uppercase dark:text-white"></h2>
             <ul className="text-zinc-600 dark:text-zinc-400">
               <li className="">
-                <button
-                  type="button"
-                  className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center "
-                >
-                  Agende uma conversa
-                </button>
+                <ButtonRocket text="Agende uma conversa" />
               </li>
             </ul>
           </div>
@@ -124,7 +86,7 @@ const Footer = () => {
         </span>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

@@ -16,10 +16,10 @@ const Area1Sobre = () => {
     return (
         <section className='section-test'>
             <div className='container-test'>
-                <h3 class="mb-4 text-center text-2xl sm:text-3xl md:mb-7 md:text-4xl lg:text-5xl text-zinc-300">Título H3</h3>
-                {texts.map((item) => (
-                    <div className='mb-4 text-center'>
-                        <p class="mb-1 text-base text-zinc-500 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl">{item.text}</p>
+                <h3 className="mb-4 text-center text-2xl sm:text-3xl md:mb-7 md:text-4xl lg:text-5xl text-zinc-300">Título H3</h3>
+                {texts.map((item, index) => (
+                    <div className='mb-4 text-center' key={index}>
+                        <p className="mb-1 text-base text-zinc-500 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl">{item.text}</p>
                     </div>
                 ))}
             </div>

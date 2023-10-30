@@ -1,30 +1,17 @@
 import React from 'react'
-import { FaChevronRight } from 'react-icons/fa'
 
-const Area1Item = ({ texto1, texto2, texto3, align }) => {
+const Area1Item = ({ value, img, title, text, handleActiveItem, activeItem }) => {
+  const isActive = activeItem === value
 
+  const itemClassName = `flex flex-col items-center py-8 p-5 rounded bg-zinc-900 transition duration-150 ${isActive ? 'border border-cyan-500 scale-105	' : ''}`
 
   return (
-
-    <div data-aos="fade-up" className={`mb-16 ${align}`}>
-      <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">
-        {texto3}
-      </h2>
-      <p className="font-light mb-4 text-black dark:text-zinc-300">
-        {texto1}
-      </p>
-      <p className="font-medium mb-4 text-black dark:text-zinc-300">
-        {texto2}
-      </p>
-      <div>
-        <a href="#" className="inline-flex items-center gap-2 font-medium text-black hover:text-cyan-500 dark:text-zinc-300">
-          Ler Mais
-          <FaChevronRight />
-        </a>
-      </div>
-
+    <div className={itemClassName} onClick={() => handleActiveItem(value)}>
+      <img src={img} alt="" className='w-16 text-white mb-6' />
+      <h4 className="mb-3 text-center text-xl sm:text-2xl md:mb-6 md:text-3xl lg:text-4xl text-zinc-300">{title}</h4>
+      <p className="hidden sm:block mb-1 text-base text-zinc-500 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl">{text}</p>
+      <button className='btn-primary hidden sm:block'>Veja mais</button>
     </div>
-
   )
 }
 

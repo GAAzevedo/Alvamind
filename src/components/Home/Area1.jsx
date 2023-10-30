@@ -1,36 +1,105 @@
-import React, { useEffect } from "react";
-import Area1Item from "./Area1Item";
-import "./Area1.css"
+import React, { useState } from 'react'
+import Area1Item from './Area1Item'
+import { AiFillAccountBook } from 'react-icons/ai'
+import Area1HomeSub from './Area1HomeSub'
 
+const areaItemsData = [
+  {
+    value: 'websites',
+    img: 'https://cdn-icons-png.flaticon.com/512/977/977597.png',
+    title: 'Websites',
+    text: 'tudo para seu aplicativo',
+  },
+  {
+    value: 'marketing',
+    img: 'https://cdn-icons-png.flaticon.com/512/977/977597.png',
+    title: 'Marketing',
+    text: 'tudo para seu aplicativo',
+  },
+  {
+    value: 'presenca',
+    img: 'https://cdn-icons-png.flaticon.com/512/977/977597.png',
+    title: 'Presença',
+    text: 'tudo para seu aplicativo',
+  },
+]
+
+const subItemsData = {
+  websites: [
+    {
+      icon: <AiFillAccountBook />,
+      title: 'Sites',
+      texts: 'Site institucional, E-commerce, Blog, Portais, E-Learning, Página de vendas, Landing Page, Manutenção, Otimização WordPress',
+    },
+    {
+      icon: <AiFillAccountBook />,
+      title: 'Apps',
+      texts: 'Site institucional, E-commerce, Blog, Portais, E-Learning, Página de vendas, Landing Page, Manutenção, Otimização WordPress',
+    },
+  ],
+  marketing: [
+    {
+      icon: <AiFillAccountBook />,
+      title: 'Performance',
+      texts: 'Site institucional, E-commerce, Blog, Portais, E-Learning, Página de vendas, Landing Page, Manutenção, Otimização WordPress',
+    },
+    {
+      icon: <AiFillAccountBook />,
+      title: 'Inbound Marketing',
+      texts: 'Site institucional, E-commerce, Blog, Portais, E-Learning, Página de vendas, Landing Page, Manutenção, Otimização WordPress',
+    },
+  ],
+  presenca: [
+    {
+      icon: <AiFillAccountBook />,
+      title: 'Design de Logotipo',
+      texts: 'Site institucional, E-commerce, Blog, Portais, E-Learning, Página de vendas, Landing Page, Manutenção, Otimização WordPress',
+    },
+    {
+      icon: <AiFillAccountBook />,
+      title: 'Mídia Off',
+      texts: 'Site institucional, E-commerce, Blog, Portais, E-Learning, Página de vendas, Landing Page, Manutenção, Otimização WordPress',
+    },
+  ],
+}
 
 const Area1 = () => {
+  const [activeItem, setActiveItem] = useState('websites')
+
+  const handleActiveItem = (value) => {
+    setActiveItem(value)
+  }
+
   return (
-    <section className="relative bg-white dark:bg-zinc-930">
-      <div className="py-24 px-4 mx-auto max-w-screen-xl sm:py-28 md:py-32 lg:py-36 sm:px-6 md:px-14 lg:px-20">
-        <div className="butterfly max-w-screen-lg text-gray-500 sm:text-lg">
+    <section className="overflow-hidden relative bg-white dark:bg-zinc-950">
+      <div className="px-4 mx-auto max-w-screen-xl py-28 md:py-32 sm:px-6 md:px-14 lg:px-20">
+        <ul className="grid grid-cols-3 gap-5 justify-center mb-8">
+          {areaItemsData.map((item) => (
+            <Area1Item
+              key={item.value}
+              value={item.value}
+              img={item.img}
+              title={item.title}
+              text={item.text}
+              activeItem={activeItem}
+              handleActiveItem={handleActiveItem}
+            />
+          ))}
+        </ul>
 
-          {/*PARA COLOCAR O TESTO A DIREITA: align={"text-right"}*/}
-
-          <Area1Item  /*Titulo*/ texto3="Redes Sociais"
-                        /*Subtitulo*/ texto1="Transformando Ideias em Experiências Digitais Memoráveis"
-                        /*texto principal*/ texto2="Descubra como nossa equipe de especialistas em desenvolvimento web pode transformar suas ideias em postagens incríveis e funcionais que cativam seus visitantes desde a primeira visita." />
-
-
-          <Area1Item  /*Titulo*/ texto3="Websites"
-                        /*Subtitulo*/ texto1="Web Além dos Limites: Inovação, Estética e Funcionalidade"
-                        /*texto principal*/ texto2="Explore um mundo onde o design web vai além da superfície. Junte-se a nós para criar plataformas que não apenas impressionam visualmente, mas também proporcionam uma experiência de usuário intuitiva e envolvente."
-            align={"text-right"} />
-
-          <Area1Item  /*Titulo*/ texto3="Gestão de tráfego"
-                        /*Subtitulo*/ texto1="Estratégias para atrair e converter visitantes em clientes"
-                        /*texto principal*/ texto2="A gestão de tráfego é uma ferramenta poderosa para aumentar as vendas de uma empresa. Com as estratégias corretas, é possível atrair e converter visitantes em clientes, gerando leads e vendas."
-          />
-
-
-        </div>
+        <ul className="grid grid-cols-2 gap-5 justify-center mb-8">
+          {subItemsData[activeItem].map((subItem, index) => (
+            <Area1HomeSub
+              key={index}
+              icon={subItem.icon}
+              title={subItem.title}
+              texts={subItem.texts}
+            />
+          ))}
+        </ul>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Area1;
+export default Area1
