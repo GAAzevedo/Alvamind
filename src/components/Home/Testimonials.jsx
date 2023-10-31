@@ -31,11 +31,11 @@ const Testimonials = () => {
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className={`pb-5 pt-10 bg-zinc-900 duration-700 ease-in-out h-full flex justify-center items-center ${activeItem === index ? 'active' : 'hidden'}`}
+                className={`pb-5 pt-10 dark:bg-zinc-900 bg-zinc-500 duration-700 ease-in-out h-full flex justify-center items-center ${activeItem === index ? 'active' : 'hidden'}`}
                 data-carousel-item
               >
                 <div className='text-center w-8/12 mx-auto'>
-                  <p className="h-48 mb-3 text-base text-zinc-50 text-justify sm:text-lg md:text-xl lg:text-2xl">
+                  <p className="h-48 mb-3 text-base text-gray-900 dark:text-white text-justify sm:text-lg md:text-xl lg:text-2xl">
                     <span className='block font-medium text-gray-900 dark:text-white text-xl mb-3'><ImQuotesLeft /></span>
                     {testimonial}
                     <span className='flex justify-end font-medium text-gray-900 dark:text-white text-xl'><ImQuotesRight /></span>

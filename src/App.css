@@ -1,18 +1,16 @@
 .img-promo {
-    background-image: url('./assets/images/banner2.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url('./assets/images/banner2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.progress-ring__circle {
-    stroke-dasharray: 400, 400;
-    transition: stroke-dashoffset 0.35s;
-    transform: rotate(-90deg);
-    transform-origin: 50% 50%;
-    color: blue
+.progress-bar {
+  transition: stroke-dashoffset 0.35s;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
 }
 
-.progress-ring__circle_a {
-    color: rgba(0, 0, 255, 0.486);
+.percentage-text {
+  color: white !important;
 }
