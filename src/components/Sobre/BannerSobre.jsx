@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import btflyBanner from '../../assets/Imagens/bannerBtfly.png'
-import btflyBannerSm from '../../assets/Imagens/bannerBtflySm.png'
-import btflyBannerMd from '../../assets/Imagens/bannerBtflyMd.png'
-import btflyBannerLg from '../../assets/Imagens/bannerBtflyLg.png'
-import btflyBannerXl from '../../assets/Imagens/bannerBtflyXl.png'
+import btflyBanner from '../../assets/images/bannerBtfly.png'
+import btflyBannerSm from '../../assets/images/bannerBtflySm.png'
+import btflyBannerMd from '../../assets/images/bannerBtflyMd.png'
+import btflyBannerLg from '../../assets/images/bannerBtflyLg.png'
+import btflyBannerXl from '../../assets/images/bannerBtflyXl.png'
 
 
 const BannerSobre = () => {

@@ -1,4 +1,4 @@
-import foguete from '../../assets/Imagens/foguete.png'
+import foguete from '../../assets/images/foguete.png'
 import ButtonRocket from '../Buttons/ButtonRocket'
 
 const BannerRocket = () => {

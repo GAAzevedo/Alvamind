@@ -1,6 +1,6 @@
 import React from "react"
-import Logo from "../../assets/Logo/logoWhite.png"
-import LogoB from "../../assets/Logo/logoBlack.png"
+import Logo from "../../assets/logo/logoWhite.png"
+import LogoB from "../../assets/logo/logoBlack.png"
 import ButtonRocket from "../Buttons/ButtonRocket"
 import { BsTelephone, BsEnvelope, BsWhatsapp, BsInstagram, BsRocketTakeoff } from 'react-icons/bs'
 
@@ -14,9 +14,9 @@ const visaoLinks = [
 ]
 
 const contatoTextos = [
-  { title: "(11) 94081 0122", icon: <BsTelephone />},
-  { title: "contato@alvamind.com.nr", icon: <BsRocketTakeoff />},
-  { title: "@alvamindbrasil", icon: <BsEnvelope />},
+  { title: "(11) 94081 0122", url: "tel:+11940810122", icon: <BsTelephone /> },
+  { title: "contato@alvamind.com.br", url: "mailto:contato@alvamind.com.br", icon: <BsEnvelope /> },
+  { title: "@alvamindbrasil", url: "https://www.instagram.com/alvamindbrasil/?ig_rid=e944e07d-6fcb-458d-a2db-ac6241d7f671", icon: <BsInstagram /> },
 ]
 
 
@@ -45,10 +45,12 @@ const Footer = () => {
               CONTATO
             </h2>
             <ul className="text-zinc-600 dark:text-zinc-400">
-            {contatoTextos.map((item, index) => (
-                <li className="mb-2 flex items-center justify-center gap-2" key={index}>
+              {contatoTextos.map((item, index) => (
+                <li className="mb-2 " key={index}>
+                  <a href={item.url} className="flex items-center justify-center gap-2 hover:underline hover:underline-offset-1">
                     {item.icon}
                     {item.title}
+                  </a>
                 </li>
               ))}
             </ul>

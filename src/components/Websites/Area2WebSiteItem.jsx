@@ -1,5 +1,4 @@
 import React from "react"
-import { FaChevronRight } from "react-icons/fa"
 
 const Area3WebSiteItem = ({ title, text, per }) => {
   return (
@@ -11,8 +10,8 @@ const Area3WebSiteItem = ({ title, text, per }) => {
             strokeDashoffset={`calc(400 - (400 * ${per / 1.62}) / 100)`}></circle>
         </svg>
       </div>
-      <h4 class="mb-3 text-center text-xl sm:text-2xl md:mb-6 md:text-3xl lg:text-4xl text-zinc-300">{title}</h4>
-      <p class="font-light mb-1 text-base text-zinc-500 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl"> {text}</p>
+      <h4 className="mb-3 text-center text-xl sm:text-2xl md:mb-6 md:text-3xl lg:text-4xl dark:text-zinc-300 text-zinc-700">{title}</h4>
+      <p className="mb-1 text-base dark:text-zinc-500 text-zinc-600 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl">{text}</p>
     </div>
   )
 }

@@ -1,7 +1,6 @@
-import React from 'react'
 
-import imgMobile from "../../assets/Imagens/contatoHero1.jpg";
-import imgDesktop from "../../assets/Imagens/contatoHero2.png";
+import imgMobile from "../../assets/images/contatoHero1.jpg";
+import imgDesktop from "../../assets/images/contatoHero2.png";
 
 const Area1Contato = () => {
     return (

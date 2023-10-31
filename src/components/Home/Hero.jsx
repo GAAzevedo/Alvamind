@@ -1,5 +1,5 @@
-import React from "react";
-import HeroImg from "../../assets/Imagens/01 copiar.png";
+import React from "react"
+import HeroImg from "../../assets/images/01 copiar.png"
 
 const Hero = () => {
   return (
@@ -21,7 +21,7 @@ const Hero = () => {
         <img className="max-w-full z-10 " src={HeroImg} alt="" />
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

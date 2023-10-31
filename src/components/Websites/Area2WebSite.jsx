@@ -5,7 +5,7 @@ const Area2WebSite = () => {
   return (
     <section className="section-test">
       <div className="container-test">
-        <h3 class="mb-4 text-center text-2xl sm:text-3xl md:mb-7 md:text-4xl lg:text-5xl text-zinc-300">Estatísticas Cruciais para Empreendedores</h3>
+        <h3 className="mb-4 text-center text-2xl sm:text-3xl md:mb-7 md:text-4xl lg:text-5xl dark:text-zinc-300 text-zinc-700">Estatísticas Cruciais para Empreendedores</h3>
 
         <div className="gap-8 sm:grid grid-cols-2 sm:text-lg  ">
           <Area2WebSiteItem title="Informações de contato" per="64" text="64% dos consumidores preferem encontrar informações de contato em um site, em comparação com outras fontes." />

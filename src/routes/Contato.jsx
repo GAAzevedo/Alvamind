@@ -9,7 +9,6 @@ const Contato = () => {
     <>
       <Area1Contato />
       <Area2Contato />
-      <AreaInstagram />
       <BannerRocket/>
     </>
   )

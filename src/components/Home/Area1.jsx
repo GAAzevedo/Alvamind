@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Area1Item from './Area1Item'
 import { AiFillAccountBook } from 'react-icons/ai'
+import Area1Item from './Area1Item'
 import Area1HomeSub from './Area1HomeSub'
 
 const areaItemsData = [
@@ -71,8 +71,8 @@ const Area1 = () => {
   }
 
   return (
-    <section className="overflow-hidden relative bg-white dark:bg-zinc-950">
-      <div className="px-4 mx-auto max-w-screen-xl py-28 md:py-32 sm:px-6 md:px-14 lg:px-20">
+    <section className="section-test">
+      <div className="container-test">
         <ul className="grid grid-cols-3 gap-5 justify-center mb-8">
           {areaItemsData.map((item) => (
             <Area1Item
@@ -98,6 +98,7 @@ const Area1 = () => {
           ))}
         </ul>
       </div>
+
     </section>
   )
 }

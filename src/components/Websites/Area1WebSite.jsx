@@ -1,15 +1,12 @@
 import React from 'react'
-import Area1WebSiteItem from './Area1WebSiteItem';
+import Area1WebSiteItem from './Area1WebSiteItem'
 
 const Area1WebSite = () => {
   return (
     <section className="section-test">
       <div className="container-test">
         <div className=" text-gray-500 sm:text-lg">
-
-          {/*PARA COLOCAR O TESTO A DIREITA: align={"text-right"}*/}
-
-
+          
           <Area1WebSiteItem
             title="Vitrine online"
             text1="Um site é como uma vitrine para sua empresa. É a primeira impressão que as pessoas terão de você, e é a maneira como elas saberão mais sobre o que você oferece.."
@@ -43,4 +40,4 @@ const Area1WebSite = () => {
   )
 }
 
-export default Area1WebSite;
+export default Area1WebSite

@@ -1,5 +1,5 @@
 .img-promo {
-    background-image: url('./assets/Imagens/banner2.png');
+    background-image: url('./assets/images/banner2.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,4 +16,3 @@
 .progress-ring__circle_a {
     color: rgba(0, 0, 255, 0.486);
 }
-

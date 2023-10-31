@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { InstagramEmbed } from 'react-social-media-embed';
-import BgWhite from '../../assets/Imagens/bg-white.png';
-import BgBlack from '../../assets/Imagens/bg-black.png';
-import BgBlackS from "../../assets/Imagens/bg-black-s.png";
-import BgWhiteS from "../../assets/Imagens/bg-white-s.png";
+import BgWhite from '../../assets/images/bg-white.png';
+import BgBlack from '../../assets/images/bg-black.png';
+import BgBlackS from "../../assets/images/bg-black-s.png";
+import BgWhiteS from "../../assets/images/bg-white-s.png";
 
 const AreaInstagram = () => {
     const [img, setImg] = useState(BgBlackS);
