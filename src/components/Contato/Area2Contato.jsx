@@ -37,9 +37,9 @@ const Area2Contato = () => {
 
   return (
     <section className="relative bg-white dark:bg-zinc-950">
-      <div className="py-36 px-4 mx-auto mt-20 max-w-screen-xl sm:py-28 md:py-32 lg:py-36 sm:px-6 md:px-14 lg:px-20">
+      <div className="py-36 px-4 mx-auto max-w-screen-xl sm:py-28 md:py-32 lg:py-36 sm:px-6 md:px-14 lg:px-20">
         <div className='grid md:grid-cols-2'>
-          <div className="flex flex-col items-center justify-center">
+          <div className="mt-14 mb-24 flex flex-col items-center justify-center">
             <div className='mb-20 text-center font-bold'>
               <p className="uppercase mb-1 text-base text-zinc-500 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl">telefone</p>
               <a href="tel:+11940810122" className='flex items-center justify-center gap-5'>

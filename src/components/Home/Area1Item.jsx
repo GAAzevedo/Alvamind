@@ -9,7 +9,7 @@ const Area1Item = ({ value, img, title, text, handleActiveItem, activeItem }) =>
     <div className={itemClassName} onClick={() => handleActiveItem(value)}>
       <img src={img} alt="" className='w-16 text-white mb-6' />
       <h4 className="mb-3 text-center text-xl sm:text-2xl md:mb-6 md:text-3xl lg:text-4xl dark:text-zinc-300 text-zinc-700">{title}</h4>
-      <p className="hidden sm:block mb-1 text-base text-zinc-500 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl">{text}</p>
+      <p className="hidden sm:block mb-1 text-center text-zinc-500 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl">{text}</p>
       <button className='btn-primary hidden sm:block'>Veja mais</button>
     </div>
   )
