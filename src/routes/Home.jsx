@@ -5,6 +5,7 @@ import Testimonials from '../components/Home/Testimonials'
 import Certification from '../components/Home/Certification'
 import BannerRocket from '../components/Banners/BannerRocket'
 import SiteResponsivo from '../components/Home/SiteResponsivo'
+import SiteGoogle from '../components/Home/SiteGoogle'
 
 
 const Home = () => {
@@ -13,9 +14,11 @@ const Home = () => {
       <Hero/>
       <Area1/>
       <SiteResponsivo />
+      <SiteGoogle/>
       <Testimonials />
       <Certification />
       <BannerRocket />
+      
     </>
   )
 }

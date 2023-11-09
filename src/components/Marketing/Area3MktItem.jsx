@@ -27,7 +27,7 @@ const CircularProgressBar = ({ radius, progress, strokeWidth }) => {
           textAnchor="middle"
           dominantBaseline="middle"
           className="percentage-text"
-          fill="#383737" // Cor branca
+          fill="#615c5c" // Cor branca
         >
           {progress}%
         </text>

@@ -4,6 +4,7 @@ import imgResponsive from '../../assets/imageResp.png'
 const SiteResponsivo = () => {
   return (
     <section className="section-test">
+      
       <div className="container-test">
         <div className="grid md:grid-cols-2">
           <div className='flex flex-col justify-center items-center'>

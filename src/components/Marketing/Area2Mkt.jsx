@@ -1,5 +1,5 @@
 import React from "react"
-import Banner1 from "../../assets/images/banner1.png"
+import Banner1 from "../../assets/images/banner1.1.png"
 
 
 const Area2Mkt = () => {

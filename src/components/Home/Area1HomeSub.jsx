@@ -5,7 +5,7 @@ const Area1HomeSub = ({ icon, title, texts }) => {
 
   return (
     <div className='mt-16 text-white text-center '>
-      <span className='flex justify-center mb-4 text-4xl'>{icon}</span>
+      <span className='flex justify-center dark:text-white text-zinc-900 mb-4 text-4xl'>{icon}</span>
       <h6 className="mb-1 text-center text-base sm:text-lg md:mb-4 md:text-xl lg:text-2x text-cyan-500">{title}</h6>
       <ul>
         {textArray.map((item, index) => (
