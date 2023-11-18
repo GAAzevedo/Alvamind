@@ -14,3 +14,32 @@
 .percentage-text {
   color: #615c5c !important;
 }
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 5))
+  }
+}
+
+.slider {
+  height: 100px;
+  position: relative;
+  max-width: 100%;
+  overflow:hidden;
+}
+
+.slide-track {
+  animation: scroll 16s linear infinite;
+  display: flex;
+  width: calc(250px * 10);
+}
+
+.slide {
+  height: 100px;
+  width: 250px;
+}

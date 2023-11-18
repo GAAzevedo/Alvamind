@@ -8,9 +8,9 @@ const Area1WebSite = () => {
         <div className=" text-gray-500 sm:text-lg">
           
           <Area1WebSiteItem
-            title="Vitrine online"
-            text1="Um site é como uma vitrine para sua empresa. É a primeira impressão que as pessoas terão de você, e é a maneira como elas saberão mais sobre o que você oferece.."
-            text2="Um site é como uma vitrine para sua empresa. É a primeira impressão que as pessoas terão de você, e é a maneira como elas saberão mais sobre o que você oferece.."
+            title="Presença Online Essencial"
+            text1="Ter um site é crucial nos dias de hoje. É a sua vitrine virtual, aberta 24/7, proporcionando acesso constante aos clientes em potencial"
+            text2=""
           />
 
           <div className='drop-shadow-2xl flex justify-center items-center relative m-4'>
@@ -19,9 +19,9 @@ const Area1WebSite = () => {
           </div>
 
           <Area1WebSiteItem
-            title="Conexão com clientes"
-            text1="Um site é uma ótima maneira de se conectar com seus clientes. Você pode usar o site para compartilhar informações sobre seus produtos ou serviços, para fornecer atendimento ao cliente e para gerar leads."
-            text2="Um site é uma ótima maneira de se conectar com seus clientes. Você pode usar o site para compartilhar informações sobre seus produtos ou serviços, para fornecer atendimento ao cliente e para gerar leads."
+            title="Profissionalismo Instantâneo"
+            text1="Um site confere instantaneamente um ar profissional ao seu negócio. É a maneira moderna e confiável de apresentar sua empresa ao mundo"
+            text2=""
           />
 
           <div className='drop-shadow-2xl flex justify-center items-center relative m-4'>
@@ -30,9 +30,9 @@ const Area1WebSite = () => {
           </div>
 
           <Area1WebSiteItem
-            title="Oportunidades de negócios"
-            text1="Um site é como uma vitrine para sua empresa. É a primeira impressão que as pessoas terão de você, e é a maneira como elas saberão mais sobre o que você oferece.."
-            text2="Um site pode ajudá-lo a aumentar suas chances de sucesso. Ele pode ajudar você a atrair novos clientes, a aumentar as vendas e a melhorar a sua imagem de marca."
+            title="Oportunidades de Crescimento"
+            text1="Além de conectar-se localmente, um site oferece oportunidades de negócios globais. É o primeiro passo para explorar mercados além das fronteiras locais"
+            text2=""
           />
         </div>
       </div>

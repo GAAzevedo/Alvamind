@@ -5,7 +5,7 @@ import { FaRegHandshake } from 'react-icons/fa'
 import { BiBrain } from 'react-icons/bi'
 import {AiOutlineRise} from 'react-icons/ai'
 import {BsCollectionPlayFill} from 'react-icons/bs'
-import { FiActivity } from "react-icons/fi";
+import { TbTargetArrow } from "react-icons/tb";
 
 import Area1Item from './Area1Item'
 import Area1HomeSub from './Area1HomeSub'
@@ -58,7 +58,7 @@ const subItemsData = {
   ],
   presenca: [
     {
-      icon: <FiActivity />,
+      icon: <TbTargetArrow />,
       title: 'Marketing Midia Social',
       texts: 'Anuncios online, Estratégia de conteudo, Engajamento de publico, Anuncios online, Personalidades parceiras',
     },
