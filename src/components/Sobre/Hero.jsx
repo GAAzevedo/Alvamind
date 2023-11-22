@@ -1,4 +1,6 @@
-import Logo from "../../../src/assets/logo/logoWhite.png"
+import LogoWhite from "../../../src/assets/logo/logoWhite.png"
+import LogoBlack from "../../../src/assets/logo/logoBlack.png"
+
 const Hero = () => {
     return (
         <section className="relative overflow-hidden h-[calc(100vh-72px)] flex justify-center items-center">
@@ -6,7 +8,8 @@ const Hero = () => {
                 <h1 className="mb-6 text-center text-4xl sm:text-5xl md:mb-9 md:text-6xl lg:text-7xl dark:text-zinc-100 text-zinc-900">Quem somos nós</h1>
                 <p className="text-center mb-1 text-base dark:text-zinc-500 text-zinc-600 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl">Exemplo exemplo</p>
                 <div className="flex justify-center  mt-36">
-                    <img src={Logo} alt="" className="w-6/12"/>
+                    <img src={LogoBlack} alt="" className="bounce-in-left w-6/12 dark:hidden block"/>
+                    <img src={LogoWhite} alt="" className="bounce-in-left w-6/12 hidden dark:block"/>
                 </div>
             </div>
         </section>

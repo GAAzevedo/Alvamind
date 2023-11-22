@@ -43,3 +43,20 @@
   height: 100px;
   width: 250px;
 }
+
+.bounce-in-left {
+  animation: bounce-in-left 2s ease;
+}
+
+@keyframes bounce-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px); /* Inicia da esquerda */
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(30px); /* Move para a direita */
+  }
+  80% { transform: translateX(-10px); /* Ajuste antes de parar */ }
+  100% { transform: translateX(0); /* Fica no lugar final */ }
+}

@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react"
 import { VscColorMode } from "react-icons/vsc"
 
 const Theme = () => {
-  const [theme, setTheme] = useState(null)
+  const [theme, setTheme] = useState("dark")
+
 
   useEffect(() => {
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
