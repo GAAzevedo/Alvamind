@@ -7,14 +7,11 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      title:"titulo1",
-      text:"olaporra1"
+      title:"Sandra Alvares, Gerente de marketing da Construpac Eucalipto Tratado.",
+      text:"Minha experiência com a Alvamind durante a implementação do RD Station Marketing foi bastante positiva. A equipe demonstrou uma paciência enorme ao explicar cada funcionalidade, me dando a  atenção que eu precisava ao longo do processo. A abordagem foi fundamental pra que minha equipe e eu conseguíssemos entender a plataforma. Com isso nos conseguimos iniciar nossa gestão de forma mais segura e focada nos resultados esperados. Agradeço à Alvamind pela parceria e suporte durante todo o processo"
     },{
-      title:"titulo2",
-      text:"olaporra2"
-    },{
-      title:"titulo3",
-      text:"olaporra3"
+      title:"Wesley Oliveira, Operador de Marketing da Grupo Clima",
+      text:"Estou gostando bastante da parceria com a Alvamind. A equipe mostrou ser profissional e focada em entender as necessidades do meu negócio. A comunicação tem sido clara e eficiente, e as estratégias apresentadas até agora têm se mostrado promissoras. Estou satisfeito com os resultados alcançados até o momento e espero continuar essa colaboração produtiva"
     },
 
   ]
