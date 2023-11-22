@@ -12,7 +12,7 @@ import Marketing from "./routes/Marketing.jsx"
 
 const router = createBrowserRouter([
   {
-    path: "/alvamind",
+    path: "",
     element: <App />,
     children: [
       {
