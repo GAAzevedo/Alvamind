@@ -3,7 +3,7 @@ import { BsRocketTakeoff } from 'react-icons/bs'
 
 const ButtonRocket = ({text}) => {
   return (
-    <a href="#_" className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-cyan-500 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group">
+    <a href="https://api.whatsapp.com/send?phone=919819337" className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-cyan-500 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group">
       <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-cyan-500 group-hover:h-full"></span>
       <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12 text-2xl">
         <BsRocketTakeoff />

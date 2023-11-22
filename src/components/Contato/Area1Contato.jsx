@@ -8,11 +8,11 @@ const Area1Contato = () => {
             <img src={imgMobile} alt="" className='block sm:hidden h-full w-full' />
             <img src={imgDesktop} alt="" className='hidden sm:block h-full w-full' />
             <div className='absolute'>
-                <p className='text-white font-bold text-3xl mb-4 font-test'>Let's have a talk</p>
-                <button type="button"
-                    className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
+            <h2 className="mb-5 text-center text-3xl sm:text-4xl md:mb-8 md:text-5xl lg:text-6xl dark:text-zinc-200 text-zinc-800">Vamos conversar?</h2>
+                <a href="https://api.whatsapp.com/send?phone=919819337"
+                   className="btn-primary">
                     Agende uma conversa
-                </button>
+                </a>
             </div>
         </section>
     )
