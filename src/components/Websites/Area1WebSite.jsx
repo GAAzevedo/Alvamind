@@ -8,8 +8,8 @@ const Area1WebSite = () => {
         <div className=" text-gray-500 sm:text-lg">
           
           <Area1WebSiteItem
-            title="Presença Online Essencial"
-            text1="Ter um site é crucial nos dias de hoje. É a sua vitrine virtual, aberta 24/7, proporcionando acesso constante aos clientes em potencial"
+            title="Websites que Transformam"
+            text1="Desenvolvemos sites feitos sob medida para sua marca. Do design elegante à funcionalidade intuitiva, oferecemos uma presença online que não apenas impressiona, mas também impulsiona o sucesso do seu negócio"
             text2=""
           />
 
@@ -19,8 +19,8 @@ const Area1WebSite = () => {
           </div>
 
           <Area1WebSiteItem
-            title="Profissionalismo Instantâneo"
-            text1="Um site confere instantaneamente um ar profissional ao seu negócio. É a maneira moderna e confiável de apresentar sua empresa ao mundo"
+            title="Marca Online Exclusiva"
+            text1="Com um histórico sólido, somos especialistas em construir marcas online. Desde pequenas empresas até grandes corporações, nossa equipe tem a experiência necessária para posicionar sua marca de maneira única e memorável"
             text2=""
           />
 
@@ -30,8 +30,8 @@ const Area1WebSite = () => {
           </div>
 
           <Area1WebSiteItem
-            title="Oportunidades de Crescimento"
-            text1="Além de conectar-se localmente, um site oferece oportunidades de negócios globais. É o primeiro passo para explorar mercados além das fronteiras locais"
+            title="Presença Online Cativante"
+            text1="Desenvolvemos sites feitos sob medida para sua marca. Do design elegante à funcionalidade intuitiva, oferecemos uma presença online que não apenas impressiona, mas também impulsiona o sucesso do seu negócio"
             text2=""
           />
         </div>

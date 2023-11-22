@@ -8,9 +8,9 @@ const Area1Presenca = () => {
         <div className=" text-gray-500 sm:text-lg">
 
           <Area1PresencaItem
-            title="Vitrine online"
-            text1="Um site é como uma vitrine para sua empresa. É a primeira impressão que as pessoas terão de você, e é a maneira como elas saberão mais sobre o que você oferece.."
-            text2="Um site é como uma vitrine para sua empresa. É a primeira impressão que as pessoas terão de você, e é a maneira como elas saberão mais sobre o que você oferece.."
+            title="Transforme sua Marca Online"
+            text1="Desenvolvemos estratégias envolventes para criar uma presença digital impactante. Desde o design de redes sociais até a gestão de conteúdo, garantimos que sua marca se destaque"
+            text2=""
           />
 
           <div className='drop-shadow-2xl flex justify-center items-center relative m-4'>
@@ -19,9 +19,9 @@ const Area1Presenca = () => {
           </div>
 
           <Area1PresencaItem
-            title="Conexão com clientes"
-            text1="Um site é uma ótima maneira de se conectar com seus clientes. Você pode usar o site para compartilhar informações sobre seus produtos ou serviços, para fornecer atendimento ao cliente e para gerar leads."
-            text2="Um site é uma ótima maneira de se conectar com seus clientes. Você pode usar o site para compartilhar informações sobre seus produtos ou serviços, para fornecer atendimento ao cliente e para gerar leads."
+            title="Conecte-se com seu Público"
+            text1="Vamos além das postagens. Criamos uma conexão autêntica com seu público-alvo, utilizando insights e interações para impulsionar o engajamento e fortalecer sua presença online"
+            text2=""
           />
 
           <div className='drop-shadow-2xl flex justify-center items-center relative m-4'>
@@ -30,9 +30,9 @@ const Area1Presenca = () => {
           </div>
 
           <Area1PresencaItem
-            title="Oportunidades de negócios"
-            text1="Um site é como uma vitrine para sua empresa. É a primeira impressão que as pessoas terão de você, e é a maneira como elas saberão mais sobre o que você oferece.."
-            text2="Um site pode ajudá-lo a aumentar suas chances de sucesso. Ele pode ajudar você a atrair novos clientes, a aumentar as vendas e a melhorar a sua imagem de marca."
+            title="Acelere seu Crescimento Digital"
+            text1="Combinamos conhecimento técnico e criatividade para impulsionar seu negócio. De estratégias de SEO a campanhas nas redes sociais, estamos prontos para acelerar o crescimento da sua presença digital."
+            text2=""
           />
         </div>
       </div>

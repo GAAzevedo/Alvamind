@@ -35,9 +35,9 @@ const HeroWebsite = () => {
 
       <div className="container-test">
         <div data-aos="fade-up" className="sm:w-7/12">
-          <h1 className="mb-6 text-4xl sm:text-5xl md:mb-9 md:text-6xl lg:text-7xl dark:text-zinc-100 text-zinc-900"> Seu negócio precisa de um site?</h1>
+          <h1 className="mb-6 text-4xl sm:text-5xl md:mb-9 md:text-6xl lg:text-7xl dark:text-zinc-100 text-zinc-900">Pronto para ter um site impactante?</h1>
           <p className="mb-1 text-base dark:text-zinc-300 text-zinc-600 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl">
-            Em um mundo cada vez mais digital, ter um site é essencial para qualquer empresa. Um site é a sua presença online, e é a maneira como você se conecta com seus clientes e potenciais clientes.
+          Explore as possibilidades de um site único e cativante. Juntos, vamos criar uma experiência online que deixará uma impressão duradoura
           </p>
         </div>
       </div>
