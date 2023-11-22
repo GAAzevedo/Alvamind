@@ -80,7 +80,7 @@ const Area1 = () => {
   return (
     <section className="section-test">
       <div className="container-test">
-        <ul className="grid grid-cols-3 gap-5 justify-center mb-8">
+        <ul data-aos="fade-up" data-aos-delay="100" className="grid grid-cols-3 gap-5 justify-center mb-8">
           {areaItemsData.map((item) => (
             <Area1Item
               key={item.value}
@@ -94,7 +94,7 @@ const Area1 = () => {
           ))}
         </ul>
 
-        <ul className="grid grid-cols-2 gap-5 justify-center mb-8">
+        <ul data-aos="fade-up" data-aos-delay="150" className="grid grid-cols-2 gap-5 justify-center mb-8">
           {subItemsData[activeItem].map((subItem, index) => (
             <Area1HomeSub
               key={index}

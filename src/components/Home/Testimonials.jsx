@@ -6,11 +6,17 @@ const Testimonials = () => {
   const [activeItem, setActiveItem] = useState(0)
 
   const testimonials = [
-    "O site do projeto escolar ficou incrível! A navegação é super intuitiva e as informações estão muito bem organizadas. Parabéns a toda equipe pelo ótimo trabalho!",
-    "Estou impressionado com a estética e usabilidade do site do projeto escolar. As cores e o layout são atraentes, e a facilidade de encontrar o conteúdo que eu precisava foi surpreendente. Excelente trabalho!",
-    "O site do projeto escolar é uma verdadeira obra-prima! A maneira como as informações são apresentadas é clara e agradável, e a interatividade adiciona um toque especial. Parabéns à equipe por essa conquista!",
-    "O site do projeto escolar é um exemplo de design e funcionalidade. A resposta rápida e a compatibilidade com dispositivos móveis tornam a experiência do usuário impecável. Ótimo trabalho, pessoal!",
-    "Estou simplesmente encantada com o site do projeto escolar. A qualidade das imagens e o conteúdo bem pesquisado são notáveis. É um recurso valioso para todos os envolvidos no projeto. Parabéns pela excelência!"
+    {
+      title:"titulo1",
+      text:"olaporra1"
+    },{
+      title:"titulo2",
+      text:"olaporra2"
+    },{
+      title:"titulo3",
+      text:"olaporra3"
+    },
+
   ]
 
   const handleNext = () => {
@@ -23,8 +29,8 @@ const Testimonials = () => {
 
   return (
     <section className="section-test">
-      <div className="container-test">
-        <h4 className="mb-3 text-center text-xl sm:text-2xl md:mb-6 md:text-3xl lg:text-4xl dark:text-zinc-300 text-zinc-700">Veja alguns comentarios sobre nosso comprometimento</h4>
+      <div  data-aos="fade-up" data-aos-delay="100" className="container-test">
+        <h4 className="mb-8 text-center text-xl sm:text-2xl md:mb-6 md:text-3xl lg:text-4xl dark:text-zinc-300 text-zinc-700">Veja alguns comentarios sobre nosso comprometimento</h4>
 
         <div id="controls-carousel" className="relative w-full" data-carousel="static">
           <div className="relative overflow-hidden rounded-lg ">
@@ -35,12 +41,12 @@ const Testimonials = () => {
                 data-carousel-item
               >
                 <div className='text-center w-8/12 mx-auto'>
-                  <p className="h-48 mb-3 text-base text-gray-900 dark:text-white text-justify sm:text-lg md:text-xl lg:text-2xl">
+                  <p className="mb-3 text-base text-gray-900 dark:text-white text-justify sm:text-lg md:text-xl lg:text-2xl">
                     <span className='block font-medium text-gray-900 dark:text-white text-xl mb-3'><ImQuotesLeft /></span>
-                    {testimonial}
+                    {testimonial.text}
                     <span className='flex justify-end font-medium text-gray-900 dark:text-white text-xl'><ImQuotesRight /></span>
                   </p>
-                  <cite className="font-medium text-gray-900 dark:text-white">Micheal Gough</cite>
+                  <cite className="font-medium text-gray-900 dark:text-white">{testimonial.title}</cite>
                 </div>
               </div>
             ))}
