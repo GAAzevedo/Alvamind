@@ -27,7 +27,7 @@ const Testimonials = () => {
   return (
     <section className="section-test">
       <div  data-aos="fade-up" data-aos-delay="100" className="container-test">
-        <h4 className="mb-8 text-center text-xl sm:text-2xl md:mb-6 md:text-3xl lg:text-4xl dark:text-zinc-300 text-zinc-700">Veja alguns comentarios sobre nosso comprometimento</h4>
+        <h4 className="mb-8 text-center text-xl sm:text-2xl md:mb-6 md:text-3xl lg:text-4xl dark:text-zinc-300 text-zinc-700">Veja alguns comentários sobre nosso comprometimento:</h4>
 
         <div id="controls-carousel" className="relative w-full" data-carousel="static">
           <div className="relative overflow-hidden rounded-lg ">

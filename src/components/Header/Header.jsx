@@ -41,7 +41,7 @@ const Header = () => {
           </NavLink>
 
           <div className="flex items-center  lg:order-2">
-            <a href="https://api.whatsapp.com/send?phone=919819337" className="lg:hidden xl:flex btn-primary mx-2 hidden sm:block">
+            <a href="https://wa.me/message/IL762VBJFI6GG1" target="_blank" className="lg:hidden xl:flex btn-primary mx-2 hidden sm:block">
               Fale Conosco
             </a>
 

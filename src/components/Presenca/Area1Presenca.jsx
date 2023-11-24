@@ -9,7 +9,7 @@ const Area1Presenca = () => {
 
           <Area1PresencaItem
             title="Transforme sua Marca Online"
-            text1="Desenvolvemos estratégias envolventes para criar uma presença digital impactante. Desde o design de redes sociais até a gestão de conteúdo, garantimos que sua marca se destaque"
+            text1="Desenvolvemos estratégias envolventes para criar uma presença digital impactante. Desde o design de redes sociais até a gestão de conteúdo, garantimos que sua marca se destaque."
             text2=""
           />
 
@@ -20,7 +20,7 @@ const Area1Presenca = () => {
 
           <Area1PresencaItem
             title="Conecte-se com seu Público"
-            text1="Vamos além das postagens. Criamos uma conexão autêntica com seu público-alvo, utilizando insights e interações para impulsionar o engajamento e fortalecer sua presença online"
+            text1="Vamos além das postagens. Criamos uma conexão autêntica com seu público-alvo, utilizando insights e interações para impulsionar o engajamento e fortalecer sua presença online."
             text2=""
           />
 

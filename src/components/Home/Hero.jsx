@@ -9,9 +9,9 @@ const Hero = () => {
           Desenvolvemos o futuro da presença online
         </h1>
         <p data-aos="fade-up" data-aos-delay="100" className="mb-8 text-lg font-normal text-zinc-950 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-200">
-          Maximize sua presença online! Websites inovadores, forte destaque nas redes sociais e anúncios envolventes para superar a concorrência. Junte-se a nós para dar vida à sua visão digital de forma única e impactante
+          Maximize sua presença online! Websites inovadores, forte destaque nas redes sociais e anúncios envolventes para superar a concorrência. Junte-se a nós para dar vida à sua visão digital de forma única e impactante.
         </p>
-        <a  href="https://api.whatsapp.com/send?phone=919819337"
+        <a  href="https://wa.me/message/IL762VBJFI6GG1" target="_blank"
           className="btn-primary">
           Agende uma conversa
         </a>

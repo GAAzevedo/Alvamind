@@ -9,7 +9,7 @@ const Area1WebSite = () => {
           
           <Area1WebSiteItem
             title="Websites que Transformam"
-            text1="Desenvolvemos sites feitos sob medida para sua marca. Do design elegante à funcionalidade intuitiva, oferecemos uma presença online que não apenas impressiona, mas também impulsiona o sucesso do seu negócio"
+            text1="Desenvolvemos sites feitos sob medida para sua marca. Do design elegante à funcionalidade intuitiva, oferecemos uma presença online que não apenas impressiona, mas também impulsiona o sucesso do seu negócio."
             text2=""
           />
 
@@ -20,7 +20,7 @@ const Area1WebSite = () => {
 
           <Area1WebSiteItem
             title="Marca Online Exclusiva"
-            text1="Com um histórico sólido, somos especialistas em construir marcas online. Desde pequenas empresas até grandes corporações, nossa equipe tem a experiência necessária para posicionar sua marca de maneira única e memorável"
+            text1="Com um histórico sólido, somos especialistas em construir marcas online. Desde pequenas empresas até grandes corporações, nossa equipe tem a experiência necessária para posicionar sua marca de maneira única e memorável."
             text2=""
           />
 
@@ -31,7 +31,7 @@ const Area1WebSite = () => {
 
           <Area1WebSiteItem
             title="Presença Online Cativante"
-            text1="Desenvolvemos sites feitos sob medida para sua marca. Do design elegante à funcionalidade intuitiva, oferecemos uma presença online que não apenas impressiona, mas também impulsiona o sucesso do seu negócio"
+            text1="Conquiste o mundo virtual com uma presença online cativante. seja a luz que atrai olhares, conecte-se com autenticidade e deixe uma marca inesquecível na vastidão digital."
             text2=""
           />
         </div>

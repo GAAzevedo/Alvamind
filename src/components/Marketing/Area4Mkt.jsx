@@ -4,15 +4,15 @@ const Area4Mkt = () => {
   const texts = [
     {
       id: 1,
-      text: "Contrate-nos para impulsionar sua empresa para novas alturas. Com estratégias de marketing personalizadas e comprovadas, estamos prontos para elevar sua visibilidade, atrair clientes qualificados e impulsionar seu crescimento de maneira exponencial. Sua jornada para o sucesso começa conosco"
+      text: "Contrate-nos para impulsionar sua empresa para novas alturas. Com estratégias de marketing personalizadas e comprovadas, estamos prontos para elevar sua visibilidade, atrair clientes qualificados e impulsionar seu crescimento de maneira exponencial. Sua jornada para o sucesso começa conosco."
     },
     {
       id: 2,
-      text: "Com uma abordagem dinâmica e estratégias inovadoras, estamos prontos para transformar sua presença online. Nossa equipe especializada está focada em resultados tangíveis, proporcionando um impacto imediato e duradouro para o crescimento do seu negócio. Escolha uma parceria que transcende as expectativas e impulsione seu sucesso digital conosco"
+      text: "Com uma abordagem dinâmica e estratégias inovadoras, estamos prontos para transformar sua presença online. Nossa equipe especializada está focada em resultados tangíveis, proporcionando um impacto imediato e duradouro para o crescimento do seu negócio. Escolha uma parceria que transcende as expectativas e impulsione seu sucesso digital conosco."
     },
     {
       id: 3,
-      text: "Diferenciamo-nos entregando resultados reais, não apenas promessas. Com análises de dados, estratégias fundamentadas e execução meticulosa, garantimos que cada centavo investido em marketing retorne como valor mensurável. Escolha a eficácia, escolha-nos para conduzir sua empresa ao sucesso"
+      text: "Diferenciamo-nos entregando resultados reais, não apenas promessas. Com análises de dados, estratégias fundamentadas e execução meticulosa, garantimos que cada centavo investido em marketing retorne como valor mensurável. Escolha a eficácia, escolha-nos para conduzir sua empresa ao sucesso."
     }
   ]
   return (

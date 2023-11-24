@@ -39,7 +39,7 @@ const HeroMarketing = () => {
           <h1 className="mb-6 text-4xl sm:text-5xl md:mb-9 md:text-6xl lg:text-7xl dark:text-zinc-100 text-zinc-900">Seu Negócio Está Pronto para Conquistar a Internet?</h1>
 
           <p className="mb-1 text-base dark:text-zinc-300 text-zinc-600 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl">
-          Explore o extraordinário mundo do marketing digital. Juntos, vamos criar uma história envolvente para o seu negócio online
+          Explore o extraordinário mundo do marketing digital. Juntos, vamos criar uma história envolvente para o seu negócio online.
           </p>
         </div>
 

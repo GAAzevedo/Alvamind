@@ -37,7 +37,7 @@ const HeroPresença = () => {
         <div data-aos="fade-up" className="sm:w-7/12">
           <h1 className="mb-6 text-4xl sm:text-5xl md:mb-9 md:text-6xl lg:text-7xl dark:text-zinc-100 text-zinc-900"> Pronto para se destacar nas redes sociais?</h1>
           <p className="mb-1 text-base dark:text-zinc-300 text-zinc-600 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl">
-           Transforme seguidores em fãs e interações em oportunidades. Vamos construir uma presença digital que faz sua marca se destacar em qualquer feed
+           Transforme seguidores em fãs e interações em oportunidades. Vamos construir uma presença digital que faz sua marca se destacar em qualquer feed.
           </p>
         </div>
       </div>

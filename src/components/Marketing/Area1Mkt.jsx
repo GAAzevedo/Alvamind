@@ -9,7 +9,7 @@ const Area1WebSite = () => {
           
           <Area1MktItem
             title="Crescimento Exponencial através da Inovação"
-            text1="Na busca por crescimento exponencial, transformamos suas ideias em impacto. Com estratégias inovadoras, levamos sua marca a novas alturas, proporcionando resultados mensuráveis que impulsionam o sucesso"
+            text1="Na busca por crescimento exponencial, transformamos suas ideias em impacto. Com estratégias inovadoras, levamos sua marca a novas alturas, proporcionando resultados mensuráveis que impulsionam o sucesso."
             text2=""
           />
 
@@ -20,7 +20,7 @@ const Area1WebSite = () => {
 
           <Area1MktItem
             title="Destaque Garantido nas Conversas Digitais"
-            text1="A batalha pela atenção online é intensa, e estamos aqui para garantir que sua empresa não apenas participe, mas se destaque. Desenvolvemos campanhas cativantes que colocam sua marca no centro das conversas digitais, construindo uma presença online duradoura"
+            text1="A batalha pela atenção online é intensa, e estamos aqui para garantir que sua empresa não apenas participe, mas se destaque. Desenvolvemos campanhas cativantes que colocam sua marca no centro das conversas digitais, construindo uma presença online duradoura."
             text2=""
           />
 
@@ -31,7 +31,7 @@ const Area1WebSite = () => {
 
           <Area1MktItem
             title="Descomplicando o Sucesso Online"
-            text1="Navegar no mundo digital pode ser complexo, mas conosco, o sucesso online se torna descomplicado. Oferecemos uma abordagem simplificada para o marketing digital, proporcionando resultados tangíveis que impulsionam o crescimento sustentável de sua empresa"
+            text1="Navegar no mundo digital pode ser complexo, mas conosco, o sucesso online se torna descomplicado. Oferecemos uma abordagem simplificada para o marketing digital, proporcionando resultados tangíveis que impulsionam o crescimento sustentável de sua empresa."
             text2=""
           />
         </div>

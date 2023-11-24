@@ -4,15 +4,15 @@ const Area3WebSite = () => {
   const texts = [
     {
       id: 1,
-      text: "Além de conectar-se localmente, um site oferece oportunidades de negócios globais. É o primeiro passo para explorar mercados além das fronteiras locais"
+      text: "Além de conectar-se localmente, um site oferece oportunidades de negócios globais. É o primeiro passo para explorar mercados além das fronteiras locais."
     },
     {
       id: 2,
-      text: "Um site confere instantaneamente um ar profissional ao seu negócio. É a maneira moderna e confiável de apresentar sua empresa ao mundo"
+      text: "Um site confere instantaneamente um ar profissional ao seu negócio. É a maneira moderna e confiável de apresentar sua empresa ao mundo."
     },
     {
       id: 3,
-      text: "Ter um site é crucial nos dias de hoje. É a sua vitrine virtual, aberta 24/7, proporcionando acesso constante aos clientes em potencial"
+      text: "Ter um site é crucial nos dias de hoje. É a sua vitrine virtual, aberta 24/7, proporcionando acesso constante aos clientes em potencial."
     }
   ]
   return (

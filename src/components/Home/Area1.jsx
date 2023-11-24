@@ -15,7 +15,7 @@ const areaItemsData = [
     value: 'websites',
     img: 'https://cdn-icons-png.flaticon.com/512/1084/1084320.png',
     title: 'Websites',
-    text: 'Seu site é sua vitrine virtual! Deixe-nos criar uma experiência online cativante que fará os visitantes se apaixonarem pela sua marca',
+    text: 'Seu site é sua vitrine virtual! Deixe-nos criar uma experiência online cativante que fará os visitantes se apaixonarem pela sua marca.',
     page:'/website'
   },
   {
@@ -29,7 +29,7 @@ const areaItemsData = [
     value: 'presenca',
     img: 'https://cdn-icons-png.flaticon.com/512/1968/1968666.png',
     title: 'Presença Digital',
-    text: 'Domine as redes sociais como um profissional! Seja o rei do engajamento, conquiste seguidores fiéis e faça sua marca brilhar online',
+    text: 'Domine as redes sociais como um profissional! Seja o rei do engajamento, conquiste seguidores fiéis e faça sua marca brilhar online.',
     page:'/presenca'
   },
 ]
@@ -39,39 +39,40 @@ const subItemsData = {
     {
       icon: <BiCodeAlt />,
       title: 'Desenvolvimento Web',
-      texts: 'Sites Responsivos, Blogs, Site institucional, Tecnologias de Automatização, CMS (Sistemas de gerenciamento de conteudo)',
+      texts: 'Sites Responsivos, Blogs, Site institucional, Tecnologias de Automatização, CMS (Sistemas de gerenciamento de conteúdo)',
     },
     {
       icon: <FaRegHandshake />,
       title: 'Profissionalismo Online',
-      texts: 'Emails profissionais, Materiais para blog, UX (User experience), Automatização E-mails',
+      texts: 'E-mails profissionais, Materiais para blog, UX (User experience), Automatização de E-mails',
     },
   ],
   marketing: [
     {
       icon: <BiBrain />,
-      title: 'Inteligencia em marketing',
-      texts: 'Estratégias multicanais, CRM (Gestão de Relacionamento com o Cliente), Otimizações, Criação de conteudo, E-mail marketing',
+      title: 'Inteligência em Marketing',
+      texts: 'Estratégias multicanais, CRM (Gestão de Relacionamento com o Cliente), Otimizações, Criação de conteúdo, E-mail marketing',
     },
     {
       icon: <AiOutlineRise />,
-      title: 'Performance online',
+      title: 'Performance Online',
       texts: 'Google ADS, Facebook ADS, Remarketing, Google Analytics',
     },
   ],
   presenca: [
     {
       icon: <TbTargetArrow />,
-      title: 'Marketing Midia Social',
-      texts: 'Anuncios online, Estratégia de conteudo, Engajamento de publico, Anuncios online, Personalidades parceiras',
+      title: 'Marketing Mídia Social',
+      texts: 'Anúncios online, Estratégia de conteúdo, Engajamento de público, Anúncios online, Personalidades parceiras',
     },
     {
       icon: <BsCollectionPlayFill />,
-      title: 'Conteudo Digital',
+      title: 'Conteúdo Digital',
       texts: 'Gerenciamento de contas, Infográficos, Promoções, E-books, Imagens por I.A., Publicações agendadas',
     },
   ],
-}
+};
+
 
 const Area1 = () => {
   const [activeItem, setActiveItem] = useState('websites')
