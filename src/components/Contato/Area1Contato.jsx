@@ -9,8 +9,7 @@ const Area1Contato = () => {
             <img src={imgDesktop} alt="" className='hidden sm:block h-full w-full' />
             <div className='absolute'>
             <h2 className="mb-5 text-center text-3xl sm:text-4xl md:mb-8 md:text-5xl lg:text-6xl dark:text-zinc-200 text-zinc-800">Vamos conversar?</h2>
-                <a href="https://api.whatsapp.com/send?phone=919819337"
-                   className="btn-primary">
+                <a href="https://wa.me/message/IL762VBJFI6GG1" target="_blank" className="btn-primary">
                     Agende uma conversa
                 </a>
             </div>

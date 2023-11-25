@@ -57,8 +57,8 @@ const Area2Contato = () => {
             <div className='mb-20 text-center font-bold'>
               <p className="uppercase mb-1 text-base text-zinc-500 sm:mb-3 sm:text-lg md:mb-5 md:text-xl lg:mb-7 lg:text-2xl">redes sociais</p>
               <div className='flex items-center justify-center gap-5'>
-                <a href='https://www.instagram.com/alvamindbrasil/?ig_rid=9ac6463a-9cef-4e09-9bf2-8e08c8d928b9' className='text-cyan-500  text-2xl'><BsInstagram /></a>
-                <a href="https://api.whatsapp.com/send?phone=919819337" className='text-cyan-500 text-2xl'><BsWhatsapp /></a>
+                <a href='https://www.instagram.com/alvamindbrasil/?ig_rid=9ac6463a-9cef-4e09-9bf2-8e08c8d928b9' target="_blank" className='text-cyan-500  text-2xl'><BsInstagram /></a>
+                <a href="https://wa.me/message/IL762VBJFI6GG1" target="_blank" className='text-cyan-500 text-2xl'><BsWhatsapp /></a>
               </div>
 
             </div>

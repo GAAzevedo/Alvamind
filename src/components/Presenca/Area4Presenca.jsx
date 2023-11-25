@@ -4,15 +4,15 @@ const Area4Presenca = () => {
   const texts = [
     {
       id: 1,
-      text: "Dê um salto em visibilidade! Vamos transformar a sua presença digital, destacando sua marca em todos os cantos da internet. Seja notado, seja lembrado!"
+      text: "Dê um salto em visibilidade! Vamos transformar a sua presença digital, destacando sua marca em todos os cantos da internet. Seja notado, seja lembrado!."
     },
     {
       id: 2,
-      text: "Construiremos uma presença online envolvente e autêntica. Não apenas capturamos cliques, mas também corações. Transforme seguidores em clientes leais com conteúdo que ressoa"
+      text: "Construiremos uma presença online envolvente e autêntica. Não apenas capturamos cliques, mas também corações. Transforme seguidores em clientes leais com conteúdo que ressoa."
     },
     {
       id: 3,
-      text: "Não queremos apenas impressões, queremos resultados tangíveis. Trabalhamos para transformar curtidas em conversões. Deixe-nos guiar sua empresa para um sucesso digital palpável!"
+      text: "Não queremos apenas impressões, queremos resultados tangíveis. Trabalhamos para transformar curtidas em conversões. Deixe-nos guiar sua empresa para um sucesso digital palpável!."
     }
   ]
   return (
